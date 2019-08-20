@@ -1,0 +1,176 @@
+/* ************************* */
+/* EASTER EGG MENU SELECTION */
+/* ************************* */
+.easter-egg-selections {
+	background-image: url("../images/index-cards/blue.png");
+	background-repeat: no-repeat;
+	background-size: 70% 70%;
+	background-position: 50% 30%;
+}
+
+.vr-instructions, .easter-egg-selections {
+	width: 90%;
+	height: 90%;
+	left: 0%;
+	padding: 3%;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	z-index: 1;
+}
+
+/* *************** */
+/* PAPERNOTE IMAGE */
+/* *************** */
+.vr-popup {
+	width: 75%;
+	height: 50%;
+	margin: auto;
+	top: 35%;
+	background-image: url("../images/note-paper/NotebookPageLarge.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+/* ***************************** */
+/* TEXT ON TOP OF THE PAPERNOTE  */
+/* ***************************** */
+.instruction-page1 p {
+	width: 65%;
+	left: 13%;
+	top: 35%;
+	line-height: 1.12em;
+	font-size: 1.9em;
+	position: absolute;
+}
+
+/* ******************** */
+/* VIEW HUNT ORANGE BOX */
+/* ******************** */
+.vr-indicator p {
+	width: 15%;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-family: "Bevan";
+	font-size: 1em;
+	left: 76%;
+	top: 50%;
+	padding: 2%;
+	text-align: center;
+	position: absolute;
+}
+
+/* ******************************* */
+/* VR ICON ON TOP OF THE PAPERNOTE */
+/* ******************************* */
+.vr-icon {
+	height: 45%;
+	right: 6%;
+	top: 25%;
+	position: absolute;
+}
+
+.vr-dive-label {
+	background-color: #72B628;
+}
+
+.vr-hunt-label {
+	background-color: #FF572A;
+}
+.shadowed {
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ************************************* */
+/* FANCY ARROW POINTING TO THE STAR ICON */
+/* ************************************* */
+.egg-hint-arrow img {
+	width: 25%;
+	left: 10%;
+	top: 20%;
+	position: absolute;
+}
+
+/* **************** */
+/* THE GRENISH BOX */
+/* **************** */
+.egg-hint-text {
+	width: 45%;
+	border-radius: 25px;
+	left: 25%;
+	top: 20%;
+	padding: 2%;
+	background-color: #C1CC39;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+/* ************************************** */
+/* TEXT THAT IS ON TOP OF THE GRENISH BOX */
+/* ************************************** */
+.egg-hint-text p{ font-size: 1.8em; }
+.back-button, .next-button { z-index: 1; }
+
+/* ****************************************** */
+/* ALL THE EASTER EGGS ON AFTER THE NEWSPAPER */
+/* ****************************************** */
+.egg1, .egg2, .egg3, .egg4 {
+	height: 15%;
+	width: 30%;
+	position: absolute;
+}
+
+.egg1{
+	top: 25%;
+	left: 20%;
+}
+
+.egg2{
+	top: 25%;
+	left: 50%;
+}
+
+.egg3{
+	top: 51%;
+	left: 20%;
+}
+
+.egg4{
+	top: 51%;
+	left: 50%;
+}
+
+/* ******************************* */
+/* SIZE OF EACH OF THE EASTER EGGS */
+/* ******************************* */
+.easter-egg-button img {
+	height: 100%;
+	position: absolute;
+}
+
+a.easter-egg-button {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* ************************************************** */
+/* TEXT 'P' FOR EACH EASTER EGG IN THE MENU SELECTION */
+/* ************************************************** */
+.easter-egg-button > p {
+	left: 35%;
+	top: 25%;
+	font-weight: 700;
+	position: absolute;
+}
+
+/* *************************************** */
+/* EASTER EGG ICON ON TOP OF THE PAPERNOTE */
+/* *************************************** */
+img.easter-egg-toggle {
+	position: absolute;
+	height: 15%;
+	top: 5%;
+	left: 6.65%;;
+}

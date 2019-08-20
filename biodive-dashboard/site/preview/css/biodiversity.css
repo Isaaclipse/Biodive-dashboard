@@ -1,0 +1,252 @@
+img.comingSoon {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+.biodiverity-info {
+  width: 10%;
+  height: 10%;
+  top: 40%;
+  left: 43%;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  background-color: #00aca5;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  position: absolute;
+  z-index: 301;
+}
+
+.biodiverity-info p {
+	width: 90%;
+  top: 8%;
+  left: 5%;
+  font-size: 8px;
+  text-align: center;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+/* ************************************** */
+/* NEXT BUTTON ARROW FOR THE INFO POST IT */
+/* ************************************** */
+.click-to-continue-button img{ z-index: 301; }
+
+/* ************ */
+/* FOLDER LABEL */
+/* ************ */
+.opened-folder .folder-label {
+  width: 270px;
+  font-size: 15px;
+  right: 2%;
+  top: 8.4em;
+}
+
+/* *********** */
+/* OCEAN IMAGE */
+/* *********** */
+.biodiversity-image img {
+  width: 41%;
+  top: 2%;
+  left: 45%;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  position: absolute;
+}
+
+#image-info {
+  top: 2%;
+  left: 47%;
+  font-weight: bold;
+  color: #FFFFFF;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  position: absolute;
+}
+
+/* *************** */
+/* LEFT SIDE IMAGE */
+/* *************** */
+.left-side-image img {
+  width: 34%;
+  height: 78%;
+  top: 1%;
+  left: 10%;
+  -webkit-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  position: absolute;
+}
+
+
+.left-side-image p {
+  color: #000;
+  width: 15%;
+  padding: 1%;
+  left: 28%;
+  font-size: 15px;
+  top: 1%;
+  border-radius: 8px;
+  background-color: #ed9805;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  position: absolute;
+  z-index: 1;
+}
+
+/* ********************* */
+/* BOTTOM RIGHT BLUE BOX */
+/* ********************* */
+.blue-card{
+  width: 41%;
+  height: 46%;
+  top: 53%;
+  left: 45%;
+  -webkit-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  background-image: url("../images/index-cards/bluecard.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* ********************* */
+/* BLUE CARD INSTRUCTION */
+/* ********************* */
+.blue-card-instructions {
+  padding: 2% 5% 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* HEADERS */
+.blue-card-headers {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  top: 16%;
+  left: 5%;
+  position: absolute;
+}
+
+.pp{
+  color: #6cbf00;
+}
+
+.pc{
+  color: #9b36f3;
+}
+
+.sc{
+  color: #e0d11f;
+}
+
+.tc{
+  color: #ed5d38;
+}
+
+.header-less {
+  left: 19%;
+  position: relative;
+}
+
+.header-homeostatis {
+  left: 40%;
+  position: relative;
+}
+
+.header-more {
+  left: 58%;
+  position: relative;
+}
+
+.slider-group {
+  top: 8%;
+  left: 5%;
+  position: relative;
+}
+
+.slider-info{
+  width: 90%;
+  font-size: 14px;
+}
+
+/* CIRCLES */
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  left: -24%;
+  margin-left: 25%;
+  position: relative;
+}
+
+/* CIRCLE COLORS */
+.active{
+  background-color: #9cd81a;
+}
+
+.slider-lable {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  width: 29%
+}
+
+.slider-zone {
+  width: 67.5%;
+  display: inline-block;
+}
+
+/* DARKNESS */
+.darkness{
+  width: 40.5%;
+  height: 45%;
+  top: 53%;
+  left: 45%;
+  border-radius: 25px;
+  background-color: #000000A0;
+  -webkit-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  position: absolute;
+  z-index: 1;
+}
+
+/* INFORMATION POST IT */
+.info-post-it{
+  width: 30%;
+  top: 66%;
+  left: 50%;
+  border-radius: 20px;
+  background-color: #ed9805;
+  -webkit-box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.9);
+  -webkit-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.content {
+  padding: 5%;
+  font-size: 18px;
+  text-align: center;
+}

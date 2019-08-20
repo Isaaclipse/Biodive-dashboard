@@ -1,0 +1,219 @@
+img.comingSoon{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+
+/* ***************** */
+/* ARROW TO CONTINUE */
+/* ***************** */
+.opened-folder > .next-button img{ z-index: 301; }
+.click-to-continue-button img{ z-index: 301; }
+
+/* ******************* */
+/* MESSAGE AT THE LEFT */
+/* ******************* */
+.folder-left {
+  width: 11.5%;
+  height: 12%;
+  top: 40%;
+  left: 45%;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  background-color: #ed9805;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  position: absolute;
+  z-index: 301;
+}
+
+.folder-left p {
+  width: 90%;
+  top: 10%;
+  left: 8%;
+  font-size: 7px;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+/* ************************************************** */
+/* ANIMATION FOR THE MESSAGE THAT WILL BE AT THE LEFT */
+/* ************************************************** */
+.next-anim {
+  width: 11.5% !important;
+  height: 12% !important;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+  top: 17% !important;
+  left: 24% !important;
+  z-index: 0 !important;
+}
+
+.next-anim p{
+  font-size: 7px;
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+}
+
+/* ************* */
+/* SNAIL PICTURE */
+/* ************* */
+.snail-picture {
+  display: block;
+  top: 2%;
+  left: 50%;
+  height: 40%;
+  position: absolute;
+}
+.snail-picture img{ width: 72%; height: 100%; }
+
+/* ************* */
+/* MANDE'S IMAGE */
+/* ************* */
+.folder-left-img {
+  width: 35%;
+  top: 42%;
+  left: 12%;
+  -webkit-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+  position: absolute;
+}
+.mandy-img{ float: left; width: 100%; }
+
+/* *********** */
+/* ORANGE CARD */
+/* *********** */
+.orange-card{
+  width: 35%;
+  height: 5%;
+  top: 43%;
+  left: 49%;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  letter-spacing: 3.5px;
+  padding: 1%;
+  position: absolute;
+  background-color: #ed9805;
+}
+
+.orange-card .content{
+  width: 100%;
+  left: 3%;
+  font-size: 17px;
+  position: absolute;
+}
+
+/* *********************** */
+/* BLUE BOX FOR QUESTINONS */
+/* *********************** */
+.blue-card{
+  width: 33.5%;
+  height: 33%;
+  top: 53%;
+  left: 49%;
+  padding: 2%;
+  position: absolute;
+  background-image: url("../images/index-cards/bluecard.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card-question{
+  width: 90%;
+  top: 5%;
+  font-size: 18px;
+  position: absolute;
+}
+
+.all-questions{
+  width: 90%;
+  top: 20%;
+  position: absolute;
+}
+
+.question {
+  width: 90%;
+  border: none;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.questions li{ margin-top: 2.5%; }
+
+/* ******** */
+/* BLUE BOX */
+/* ******** */
+.blue-box{
+  width: 20%;
+  color: #000;
+  left: 25%;
+  top: 40%;
+  font-weight: 800;
+  background-color: #00aca5;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2%;
+  position: absolute;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+.blue-box:hover{
+  color: #FFF;
+  -webkit-box-shadow: 0 0 20px #FFF;
+  box-shadow: 0 0 20px #FFF;
+}
+
+/* *********** */
+/* FB&I LOGO */
+/* ********* */
+.fbi-logo {
+  bottom: 6.5%;
+  left: 36%;
+  height: 20%;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  position: absolute;
+}
+
+/* ********************** */
+/* VIDEO PLAYER/NEWSPAPER */
+/* ********************** */
+#video-player { width: 800px; }
+#video-container { left: 18%; }
+.newspaper-section, .video-background { height: 100%; z-index: 300; }
+
+/* *********** */
+/* ALERT ARROW */
+img.alert-arrow {
+  width: 7%;
+  left: 49%;
+  top: 20%;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  position: absolute;
+  z-index: 1;
+}
+
+/* ************************* */
+/* ANIMATION FOR ALERT ARROW */
+/* ************************* */
+.anim-alert-arrow {
+  -webkit-animation: opacity-pulse 1s infinite;
+  -moz-animation: opacity-pulse 1s infinite;
+  -o-animation: opacity-pulse 1s infinite;
+  animation: opacity-pulse 1s infinite;
+}

@@ -1,0 +1,230 @@
+img.comingSoon {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+/* ************ */
+/* FOLDER LABEL */
+/* ************ */
+.opened-folder .folder-label {
+  width: 270px;
+  font-size: 15px;
+  right: 2%;
+  top: 8.4em;
+}
+
+/* ************** */
+/* DRAWABLE AREA */
+/* ************** */
+.paper-area {
+	width: 33%;
+	height: 50%;
+	top: 1%;
+	left: 10%;
+	padding: 2%;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	background-image: url("../images/papers/2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.model-area{
+	width: 95%;
+  height: 77%;
+  top: 21%;
+  left: 2.5%;
+  position: absolute;
+}
+
+#drawing-board {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* ******** */
+/* STICKERS */
+/* ******** */
+.stickers {
+  width: 35%;
+  left: 12%;
+  top: 60%;
+  position: absolute;
+}
+
+.sticker {
+  width: 14%;
+}
+
+/* ********** */
+/* QUESTIONSS */
+/* ********** */
+.questions{
+	top: 2%;
+	left: 46%;
+	position: absolute;
+}
+
+/* ALL */
+.red-card, .blue-card, .green-card, .yellow-card {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.index-card {
+	width: 485px;
+	height: 230px;
+}
+
+/* RED */
+.red-card {
+  background-image: url('../images/index-cards/red.png');
+  transform: rotate(6deg);
+  position: absolute;
+	top: 295px;
+	left: 25px;
+	z-index: 3;
+}
+
+/* BLUE */
+.blue-card {
+  background-image: url('../images/index-cards/blue.png');
+  transform: rotate(3deg);
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  z-index: 1;
+}
+
+/* GREEN */
+.green-card {
+  background-image: url('../images/index-cards/green.png');
+  transform: rotate(-3deg);
+  position: absolute;
+  top: 125px;
+  left: 25px;
+  z-index: 2;
+}
+
+/* YELLOW */
+.yellow-card {
+  background-image: url('../images/index-cards/yellow.png');
+  transform: rotate(-6deg);
+  position: absolute;
+  top: 439px;
+  left: 25px;
+  z-index: 4;
+}
+
+.index-card .question {
+	font-weight: 600;
+	top: 1%;
+	left: 5%;
+	width: 93%;
+	font-size: 100%;
+	position: relative;
+}
+
+.index-card .notes {
+  width: 95%;
+  top: 20%;
+  left: 2%;
+  position: absolute;
+}
+
+.notes textarea {
+  width: 97%;
+  height: 150px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+	font-size: 80%;
+	line-height: 1.2em;
+	padding-left: 3%;
+	top: -4px;
+	position: relative;
+}
+
+/* ********************** */
+/* BUTTON FOR LITTLE MENU */
+/* ********************** */
+.button-area {
+  top: 78%;
+  left: 28%;
+  width: 15%;
+  padding: 17px;
+  position: relative;
+  background-image: url("../images/index-cards/bluecard.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.action-buttons {
+  border: 4px dashed #FFFFFF;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-family: "Raleway";
+  line-height: normal;
+  padding: 2% 2%;
+  border-radius: 25px;
+  outline: none;
+}
+
+.highlighted {
+  border: 4px dashed #FFFF00 !important;
+}
+
+.tool-button {
+	background-color: #009FBF;
+	margin: 0px 0% 3% 6%;
+}
+
+.clear-button {
+  background-color: #EC5D39;
+}
+
+.save-button {
+  background-color: #6CBF00;
+  margin-left: 3%;
+}
+
+/* ********** */
+/* VOCABULARY */
+/* ********** */
+.vocabulary{
+	width: 30%;
+	height: 73%;
+	left: 15%;
+	top: 5%;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	-webkit-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	background-image: url("../images/papers/1.png");
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+	position: absolute;
+}
+
+.vocab1, .vocab2{
+	text-decoration: none;
+	position: absolute;
+}
+
+.vocab1{
+  width: 40%;
+  height: 55%;
+  left: 5%;
+  top: 40%;
+}
+
+.vocab2 {
+  width: 40%;
+  height: 55%;
+  left: 52%;
+  top: 40%;
+}

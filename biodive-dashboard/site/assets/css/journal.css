@@ -1,0 +1,161 @@
+html {
+	background: url('../images/UnderwaterBG.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	font-family: 'Raleway', sans-serif !important;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+h1, h2, h3 {
+	font-family: 'Bevan', cursive;
+	letter-spacing: 0.2em;
+}
+a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFFFCC;
+}
+h1 {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+p {
+	margin-bottom: 0; /*0.5rem;*/
+	line-height: 1.5em;
+}
+
+.toc {
+	font-size: 1.5em;
+}
+
+.green-two-corner, .green-one-corner, .green-box, .green-small-box { background: url('../images/GreenBG.jpg'); outline: 3px solid #616802; outline-offset: -3px; }
+.orange-two-corner, .orange-one-corner, .orange-box, .orange-small-box { background: url('../images/OrangeBG.jpg'); outline: 3px solid #c66203; outline-offset: -3px; }
+.red-two-corner, .red-one-corner, .red-box, .red-small-box { background: url('../images/RedBG.jpg'); outline: 3px solid #821f08; outline-offset: -3px; }
+.blue-two-corner, .blue-one-corner, .blue-box, .blue-small-box { background: url('../images/BlueBG.jpg'); outline: 3px solid #146777; outline-offset: -3px; }
+
+.green-two-corner, .green-one-corner, .green-box, .green-small-box, .orange-two-corner, .orange-one-corner, .orange-box, .orange-small-box,
+.red-two-corner, .red-one-corner, .red-box, .red-small-box, .blue-two-corner, .blue-one-corner, .blue-box, .blue-small-box {
+	position: relative;
+	background-size: 100% 100%;
+	box-shadow: 9px 9px rgba(0,0,0,0.4);
+	font-size: 1.2em;
+}
+
+.green-two-corner, .orange-two-corner, .red-two-corner, .blue-two-corner {
+	margin: 100px 0;
+	padding: 30px 50px 50px 50px;
+	font-size: 29px;
+}
+
+.green-one-corner, .orange-one-corner, .red-one-corner, .blue-one-corner {
+	margin: 100px 0 20px 0;
+	padding: 30px;
+	font-size: 20px;
+}
+.green-one-corner h1, .orange-one-corner h1, .red-one-corner h1, .blue-one-corner h1 {
+	margin: 0 0 1em 0;
+	font-size: 23px;
+}
+.green-small-box, .orange-small-box, .red-small-box, .blue-small-box {
+	padding: 20px;
+	margin: 0 50px 20px 50px;
+	font-size: 20px;
+	text-align: center;
+}
+.green-box, .orange-box, .red-box, .blue-box {
+	padding: 15px;
+	margin: 0;
+	font-size: 20px;
+}
+
+.green-two-corner::before, .green-one-corner::before, .orange-two-corner::before, .orange-one-corner::before,
+.red-two-corner::before, .red-one-corner::before, .blue-two-corner::before, .blue-one-corner::before {
+	display: block;
+	content: "";
+	position: absolute;
+	height: 184px;
+	width: 181px;
+	top: -76px;
+	left: -70px;
+	background: url('../images/Tape.png') no-repeat;
+}
+
+.green-two-corner::after, .orange-two-corner::after, .red-two-corner::after, .blue-two-corner::after {
+	content: "";
+	position: absolute;
+	height: 184px;
+	width: 181px;
+	background: url('../images/Tape.png') no-repeat;
+	transform: rotate(180deg);
+	display: block;
+	right: -67px;
+	bottom: -70px;
+}
+
+.yellow-post-it { background: url('../images/YellowPostIt.png'); }
+.pink-post-it { background: url('../images/PinkPostIt.png'); }
+.blue-post-it { background: url('../images/BluePostIt.png'); }
+
+.yellow-post-it, .pink-post-it, .blue-post-it {
+	position: relative;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-right: -150px;
+	transform: rotate(7.5deg);
+	z-index: 100;
+}
+
+.post-it-content {
+	margin: 45px;
+    height: 210px;
+}
+
+.vr-post-it {
+	position: relative;
+	width: 185px;
+	height: 125px;
+	top: 30%;
+	left: 20%;
+}
+
+.ruled-area {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ruled-area:before {
+	font-family: 'Bevan', cursive;
+	content: 'Model Description:';
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+}
+
+.ruled-area-content {
+	background: linear-gradient(transparent, transparent 24px, #FFFFFFA0 24px, transparent 27px);
+	background-size: 30px 30px;
+}
+
+.ruled-area-content textarea {
+	text-indent: 225px;
+	width: 100%;
+	max-width: 100%;
+	min-height: 120px;
+	height: 100%;
+	max-height: 100%;
+	line-height: 30px;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	color: #FFFFFF;
+	font-size: 18px;
+}

@@ -1,0 +1,29 @@
+/* ***************** */
+/* ARROW TO CONTINUE */
+/* ***************** */
+.next-button img{ right: 5%; z-index: 301; }
+
+.map {position: absolute; width: 74%; height: 88%; top: 2em; left:10em; box-shadow: 4px 3px 3px #3E3E3E;}
+.pin1 img {width: 3%; position: absolute; top: 36%; left: 33.4%;}
+.pin2 img {position: absolute; top: 34.4%; left: 43%; width: 3%;}
+.pin3 img {position: absolute; top: 42.6%; left: 77%; width: 3%;}
+.pin1 .dive-location {color: #FFF; position: absolute; top: 43%; left: 29%; width: 12%; text-align: center;}
+.pin1 .dive-site {color: #FFF; position: absolute; top:46%; left: 29%; font-size: 0.8em; width: 12%; text-align: center; opacity: 0;}
+.pin1:hover .dive-site {opacity: 1;}
+.pin2 .dive-location {color: #FFF; position: absolute; top: 42%; left: 39%; width: 12%; text-align: center;}
+.pin2 .dive-site {color: #FFF; position: absolute; top: 44.7%; left: 38%; font-size:0.8em; width: 14%; text-align: center; opacity: 0;}
+.pin2:hover .dive-site {opacity: 1;}
+.pin3 .dive-location {color: #FFF; position: absolute; top: 50%; left: 72.9%; width: 12%; text-align: center;}
+.pin3 .dive-site {color:#FFF; position: absolute; top: 52.5%; right: 15.5%; font-size: 0.8em; width: 12%;  text-align: center; opacity: 0;}
+.pin3:hover .dive-site {opacity: 1;}
+.pin1-vr-text p {width: 65%; left: 23%; top: 62%; line-height: 1.12em; font-size: 1.9em; position: absolute; z-index: 301;}
+.pin2-vr-text p {width: 65%; left: 23%; top: 62%;; line-height: 1.12em; font-size: 1.9em; position: absolute; z-index: 301;}
+.pin3-vr-text p {width: 65%; left: 23%; top: 62%; line-height: 1.12em; font-size: 1.9em; position: absolute; z-index: 301;}
+.text-box {position: absolute; width: 53%; height: 8%; top: 4%; left: 12%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; background-color: #7fb801;}
+.text-box p {position: absolute; width: 100%; color: black; font-size: 23.6px; text-align: center;}
+.next-page-box {position: absolute; background-color: orange; left: 35%; top: 36%; border-radius: 10px; width: 24%; height: 18%; box-shadow: 4px 3px 3px #3E3E3E; z-index: 301;}
+.next-page-box p{position: absolute; width: 100%; color: black; font-size: 3.4em; text-align: center; font-weight:bold;}
+img.comingSoon { filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+.video-background {
+    z-index: 2;
+}

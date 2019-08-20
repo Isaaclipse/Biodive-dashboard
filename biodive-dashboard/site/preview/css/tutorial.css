@@ -1,0 +1,192 @@
+body{ width: 100%; height: 100%; font-family: "Raleway"; line-height: normal; margin: 0; background-image: url("../images/background.png"); }
+img.comingSoon{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+.next-button img{ height: 10%; position: absolute; top: 40%; right: 5%; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+
+/* TUTORIAL_01 */
+/* ********************************************************************************************* */
+#page-1 { width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-1 .bluecard{ width: 60%; height: 300px; left: 20%; top: 100px; position: absolute; }
+#page-1 .text{ width: 50%; font-size: 25px; left: 25%; top: 17%; position: absolute;  }
+#page-1 .postitsize img{ width: 400px; height: 400px; margin-left: 27%; }
+#page-1 .text p{ width: 104%; margin: 0; }
+#page-1 .postitsize img{ width: 400px; height: 400px; margin-left: 28%; z-index: 1; }
+#page-1 .postitsize .yellowpostit{ left: -8%; top: 310px; position: absolute; -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); }
+#page-1 .postitsize .pinkpostit{ left: 20%; top: 310px; position: absolute; -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); }
+#page-1 .question1 p{ width: 30%; left: 23.5%; font-size: 23px; font-weight: bold; top: 50%; position: absolute; -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); z-index: 1; }
+#page-1 .question1 .headset-1{ width: 10%; left: 25%; top: 61%; position: absolute; z-index: 1; }
+#page-1 .question1 .folder-1{ position: absolute; width: 10%; left: 37%;top: 77%; -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); z-index: 1; }
+#page-1 .question2 p { width: 30%; left: 53.5%; top: 50%; font-size: 23px; font-weight: bold; position: absolute; -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); z-index: 1; }
+#page-1 .question2 .headset-2{ width: 10%; left: 53.5%; top: 60%; position: absolute; z-index: 1; }
+#page-1 .question2 .folder-2{ width: 10%; left: 63.5%; top: 79%; position: absolute; -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); z-index: 1; }
+#page-1 .question1 .correct-1 img{ width: 7%; left: 26.5%; top: 62%; border-radius: 100px; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-1 .question1 .incorrect-1 img{ width: 7%; left: 38.58%; top: 77%; border-radius: 100px; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-1 .question2 .correct-2 img{ width: 7%; left: 65%; top: 79%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-1 .question2 .incorrect-2 img{ width: 7%; left: 55%; top: 62%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-1 .question1 .rightAnswer-1{ width: 12%; height: 16%; bottom: 23.5%; left: 24%; border-radius: 30px; border: 3px dashed #FFF; position: absolute; -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); z-index: 1; }
+#page-1 .question1 .wrongAnswer-1{ width: 12%; height: 16%; bottom: 8.5%; left: 35.8%; border-radius: 30px; border: 3px dashed #FFF; position: absolute; -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); z-index: 1; }
+#page-1 .question2 .rightAnswer-2{ width: 12%; height: 16%; bottom: 6.5%; right: 25.3%; border-radius: 30px; border: 3px dashed #FFF; position: absolute; -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); z-index: 1; }
+#page-1 .question2 .wrongAnswer-2{ width: 12%; height: 16%; bottom: 24%; right: 35.5%; border-radius: 30px; border: 3px dashed #FFF; position: absolute; -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); z-index: 1; }
+
+/* TUTORIAL_02A */
+/* ********************************************************************************************* */
+#page-2{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-2 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-2 .orange-Card .content{ width: 120%; margin-top: -5%; margin-left: -7%; font-size: 25px; letter-spacing: 3.5px; }
+#page-2 .bluish-Card{ width: 45%; height: 30px; border-radius: 20px; left: 22%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-2 .bluish-Card .header{ font-size: 25px; font-weight: bolder; }
+#page-2 .next{ height: 10%; position: absolute; top: 40%; right: 15%; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); 	-webkit-animation: opacity-pulse 2s infinite; -moz-animation: opacity-pulse 2s infinite; -o-animation: opacity-pulse 2s infinite; animation: opacity-pulse 5s infinite; }
+
+/* TUTORIAL_02B */
+/* ********************************************************************************************* */
+#page-3{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-3 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-3 .orange-Card .content{ width: 85%; top: 28%; left: 5%; font-size: 25px; letter-spacing: 3.5px; position: absolute; }
+#page-3 .next{ height: 10%; position: absolute; top: 40%; right: 15%; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); 	-webkit-animation: opacity-pulse 2s infinite; -moz-animation: opacity-pulse 2s infinite; -o-animation: opacity-pulse 2s infinite; animation: opacity-pulse 5s infinite; }
+#page-3 .bluish-Card{ width: 45%; height: 30px; border-radius: 20px; left: 22%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-3 .bluish-Card .header{ font-weight: bolder; font-size: 20px; top: 10%; position: absolute; }
+#page-3 .dashed-p { display: flex; }
+#page-3 .dashed-p p{ width: 50%; font-size: 20px; border-radius: 15px; border: 3px dashed #FFF; font-weight: bolder; margin: 0 1%; padding: 1%; text-align: center; }
+#page-3 .correct img{ width: 10%; right: 24%; top: 38%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-3 .incorrect img { width: 10%; left: 25%; top: 38%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-3 .rightAnswer-3{ width: 40%; height: 45%; top: 40%; left: 51%; border-radius: 15px; position: absolute; }
+#page-3 .wrongAnswer-3{ width: 40%; height: 45%; top: 40%; right: 51%; border-radius: 15px; position: absolute; }
+
+/* TUTORIAL_03A */
+/* ********************************************************************************************* */
+#page-4{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-4 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-4 .orange-Card .content{ width: 85%; top: 35%; left: 5%; font-size: 25px; letter-spacing: 3.5px; position: absolute; }
+#page-4 span{ text-decoration: underline; text-decoration-style: dotted; }
+#page-4 .bluish-Card{ width: 45%; height: 5px; border-radius: 20px; left: 22%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-4 .bluish-Card .header{ font-weight: bolder; font-size: 20px; top: 10%; position: absolute; }
+#page-4 .dashed-p { display: flex; }
+#page-4 .dashed-p p{ width: 50%; font-size: 20px; border-radius: 15px; border: 3px dashed #FFF; font-weight: bolder; margin: 0 1%; padding: 1%; text-align: center; }
+#page-4 .correct img{ width: 8%; border-radius: 30px; left: 18%; top: 40%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-4 .incorrect-4-1 img{ width: 8%; left: 46%; top: 40%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-4 .incorrect-4-2 img{ width: 8%; top: 40%; left: 74%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-4 .wrongAnswer-4-1{ width: 26%; height: 35%; left: 37%; top: 50%; border-radius: 15px; position: absolute; }
+#page-4 .wrongAnswer-4-2{ width: 26%; height: 35%; border-radius: 15px; left: 65%; top: 50%; position: absolute; }
+
+/* TUTORIAL_03B */
+/*  ****************************************************************************  */
+#page-5{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-5 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-5 .orange-Card .content{ width: 100%; font-size: 25px; text-align: center; letter-spacing: 3.5px; }
+#page-5 .orange-Card .content img{ width: 17%; bottom: 5%; left: 40%; display: block; position: absolute; }
+#page-5 .bluish-Card{ width: 45%; height: 12%; border-radius: 20px; left: 22%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-5 .bluish-Card .header{ font-weight: bolder; font-size: 20px; top: 10%; position: absolute; }
+#page-5 .dashed-p { display: flex; margin-left: 30% }
+#page-5 .dashed-p .answers{ width: 25%; height: 25%; padding: 1.50%; border-radius: 100%; margin: 1%; border: 3px dashed #FFF; }
+#page-5 .correct img{ width: 15%; height: 55%; top: 33%; left: 35%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-5 .incorrect img { width: 15%; height: 55%; top: 33%; right: 31.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-5 .rightAnswer-5{ width: 17%; height: 60%; top: 30%; left: 34%; border-radius: 100%; position: absolute; }
+#page-5 .wrongAnswer-5{ width: 17%; height: 60%; top: 30%; right: 30.5%; border-radius: 100%; position: absolute; }
+
+/* TUTORIAL_04 */
+/*  ****************************************************************************  */
+#page-6{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-6 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-6 .orange-Card .content{ width: 73%; font-size: 25px; top: 25%; position: absolute; }
+#page-6 .orange-Card .vrIcon{ width: 15%; left: 78%; top: 15%; position: absolute; }
+#page-6 .content .orange{ width: 25%; border-radius: 10px; color: #FFF; left: 90%; top: 35%; letter-spacing: 0; font-size: 15px; font-family: "Bevan"; text-align: center; text-transform: uppercase; padding: 1%; position: absolute; background-color: #FF681F; }
+#page-6 .bluish-Card{ width: 45%; height: 10%; border-radius: 20px; left: 22%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-6 .bluish-Card .header{ font-weight: bolder; font-size: 20px; top: 10%; position: absolute; }
+#page-6 .bluish-Card .orange{ width: 25%; border-radius: 10px; color: #FFF; top: 45%; left: 22%; letter-spacing: 0; font-size: 15px; font-family: "Bevan"; text-align: center; text-transform: uppercase; padding: 1%; position: absolute; background-color: #FF681F; }
+#page-6 .bluish-Card .vrIcon{ width: 17%; left: 58%; top: 25%; position: absolute; }
+#page-6 .correct img{ width: 10%; top: 35%; left: 30.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-6 .incorrect img{ width: 17%; top: 25%; right: 25%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-6 .rightAnswer-6{ width: 26%; height: 20%; top: 40%; left: 21%; padding: 1%; border-radius: 15px; border: 3px dashed #FFF; position: absolute; }
+#page-6 .wrongAnswer-6{ width: 16%; height: 60%; top: 23%; right: 24%; padding: 1%; border-radius: 100%; border: 3px dashed #FFF; position: absolute; }
+
+/* TUTORIAL_05 */
+/*  ****************************************************************************  */
+#page-7{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-7 img{ width: 50%; top: 5%; left: 20%; position: absolute; z-index: 1; }
+#page-7 .info-post-it p{ width: 35%; font-size: 25px; font-weight: bolder; top: 18%; left: 28%; position: absolute; z-index: 1; }
+#page-7 .info-post-it img{ width: 35%; top: 30%; left: 28%; position: absolute; }
+#page-7 .correct img{ width: 5%; top: 43%; left: 34%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-7 .answer-7{ width: 4%; height: 15%; top: 40%; left: 35%; border-radius: 50px; position: absolute; -webkit-transform: rotate(70deg); -ms-transform: rotate(70deg); transform: rotate(70deg); z-index: 1; }
+
+/* TUTORIAL_06A */
+/* **************************************************************************** */
+#page-8{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-8 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-8 .orange-Card .content{ width: 80%; font-size: 25px; top: 30%; position: absolute; }
+#page-8 .blue-PostIt img{ width: 35%; top: 15%; left: 55%; position: absolute; }
+#page-8 .info-post-it img{ width: 25%; top: 25%; left: 60%; position: absolute; }
+#page-8 .bluish-Card{ width: 42%; height: 65px; left: 5%; top: 50%; border-radius: 20px; padding: 4%; position: absolute; background-color: #00aca5; }
+#page-8 .bluish-Card .header{ font-weight: bolder; font-size: 25px; top: 10%; position: absolute; }
+#page-8 .dashed-p p{ font-size: 20px; font-weight: bolder; text-align: center; border: 3px dashed #FFF; border-radius: 15px; margin-top: 1%; padding: 1%; }
+#page-8 .correct img{ width: 7%; top: 32%; left: 47%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-8 .incorrect img{ width: 7%; top: 60%; left: 47%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; }
+#page-8 .rightAnswer-8{ width: 85%; height: 25%; top: 33%; left: 8%; border-radius: 30px; position: absolute; }
+#page-8 .wrongAnswer-8{ width: 85%; height: 25%; bottom: 14%; left: 8%; border-radius: 30px; position: absolute; }
+
+/* TUTORIAL_06B */
+/*  ****************************************************************************  */
+#page-9{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-9 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-9 .orange-Card .content{ width: 85%; font-size: 25px; top: 30%; position: absolute; }
+#page-9 .blue-PostIt img{ width: 35%; top: 15%; left: 55%; position: absolute; }
+#page-9 .info-post-it img{ width: 25%; top: 25%; left: 60%; position: absolute; }
+#page-9 .green-Card { width: 42%; height: 13%; left: 5%; top: 50%; border-radius: 20px; padding: 4%; position: absolute; background-color: #7eb601; }
+#page-9 .green-Card .header{ font-size: 25px; font-weight: bolder; left: 5%; top: 10%; position: absolute; }
+#page-9 .green-Card .closed-reticle{ width: 20%; top: 28%; left: 25%; border: 3px dashed #FFF; border-radius: 50%; padding: 1%; position: absolute; }
+#page-9 .green-Card .opened-reticle{ width: 20%; top: 28%; left: 50%; border: 3px dashed #FFF; border-radius: 50%; padding: 1%; position: absolute; }
+#page-9 .correct img { width: 20%; bottom: 4%; left: 51.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute;}
+#page-9 .incorrect img{ width: 19.7%; bottom: 5.5%; left: 26.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute;}
+#page-9 .rightAnswer-9{ width: 21%; height: 65%; bottom: 4%; left: 51%; border-radius: 100%; position: absolute; }
+#page-9 .wrongAnswer-9{ width: 21%; height: 65%; bottom: 5%; left: 26%; border-radius: 100%; position: absolute; }
+
+/* TUTORIAL_07 */
+/*  ****************************************************************************  */
+#page-10{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-10 .orange-Card{ width: 40%; height: 90px; top: 15%; left: 23.5%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-10 .orange-Card .content{ font-size: 25px; top: 15%; position: absolute; }
+#page-10 .orange-Card .content img { width: 8%; top: 10px; position: relative; }
+#page-10 .bluish-Card{ width: 45%; height: 12%; border-radius: 20px; left: 22%; display: flex; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-10 .bluish-Card .header{ width: 85%; font-weight: bolder; font-size: 20px; top: 10%; text-align: center; position: absolute; }
+#page-10 .bluish-Card .startIcon{ width: 15%; top: 30%; left: 50%; border: 3px dashed #FFF; border-radius: 100%; padding: 1%; position: absolute; }
+#page-10 .bluish-Card .vrIcon{ width: 15%; top: 30%; left: 30%; border: 3px dashed #FFF; border-radius: 100%; padding: 1%; position: absolute; }
+#page-10 .correct img{ width: 17%; bottom: 7%; left: 50.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute;}
+#page-10 .incorrect img{ width: 17%; bottom: 7%; left: 30.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute;}
+#page-10 .rightAnswer-10{ width: 17%; height: 60%; top: 31%; left: 50.5%; border-radius: 100%; position: absolute; }
+#page-10 .wrongAnswer-10{ width: 17%; height: 60%; top: 31%; left: 30.5%; border-radius: 100%; position: absolute; }
+
+/* TUTOPRIAL_08A */
+/*  ****************************************************************************  */
+#page-11{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-11 .blue-PostIt img{ width: 35%; top: 10%; left: 5%; position: absolute; }
+#page-11 .info-post-it img{ width: 25%; top: 25%; left: 10%; position: absolute; }
+#page-11 .orange-Card{ width: 40%; height: 90px; top: 17%; left: 40%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-11 .orange-Card .content{ width: 85%; font-size: 25px; top: 15%; position: absolute; }
+#page-11 .bluish-Card{ width: 42%; height: 5%; border-radius: 20px; left: 40%; padding: 4%; top: 50%; position: absolute; background-color: #00aca5; }
+#page-11 .bluish-Card .header{ width: 85%; font-weight: bolder; font-size: 20px; top: 10%; text-align: center; position: absolute; }
+#page-11 .dashed-p { width: 70%; display: flex; margin-left: 17% }
+#page-11 .dashed-p p{ font-size: 20px; font-weight: bolder; text-align: center; margin: 1% 1%; padding: 1%; }
+#page-11 .correct img{ width: 10%; top: 37%; left: 31.5%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-11 .incorrect img{ width: 10%; top: 37%; left: 61%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-11 .rightAnswer-11{width: 25%; height: 47%; top: 35%; left: 23%; border: 3px dashed #FFF; border-radius: 15px; position: absolute; }
+#page-11 .wrongAnswer-11{ width: 28%; height: 47%; top: 35%; left: 51.5%; border: 3px dashed #FFF; border-radius: 15px; position: absolute; }
+
+/* TUTORIAL_08B */
+/*  ****************************************************************************  */
+#page-12{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-12 .blue-PostIt img{ width: 35%; top: 10%; left: 5%; position: absolute; }
+#page-12 .info-post-it img{ width: 25%; top: 25%; left: 10%; position: absolute; }
+#page-12 .orange-Card{ width: 40%; height: 90px; top: 17%; left: 40%; border-radius: 20px; letter-spacing: 3.5px; padding: 5%; position: absolute; background-color: #ed9805; }
+#page-12 .orange-Card .content{ width: 85%; font-size: 25px; top: 25%; position: absolute; }
+#page-12 .green-Card{ width: 42%; height: 5%; border-radius: 20px; left: 40%; padding: 4%; top: 50%; position: absolute; background-color: #7eb601; }
+#page-12 .green-Card .header{ width: 85%; font-weight: bolder; font-size: 20px; top: 10%; text-align: center; position: absolute; }
+#page-12 .dashed-p { display: flex; margin-left: 5% }
+#page-12 .dashed-p p{ font-size: 20px; font-weight: bolder; text-align: center; margin: 1% 1%; padding: 1%; }
+#page-12 .correct img{ width: 10%; top: 40%; left: 25%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-12 .incorrect img{ width: 10%; top: 40%; left: 65%; border-radius: 100%; -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5); position: absolute; z-index: 1; }
+#page-12 .rightAnswer-12{width: 30%; height: 40%; top: 40%; left: 14%; border: 3px dashed #FFF; border-radius: 15px; position: absolute; }
+#page-12 .wrongAnswer-12{ width: 40%; height: 40%; top: 40%; left: 49%; border: 3px dashed #FFF; border-radius: 15px; position: absolute; }
+
+/* TUTORIAL_09 */
+/*  ****************************************************************************  */
+#page-13{ width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.50); }
+#page-13 img{ width: 50%; top: 5%; left: 20%; position: absolute; z-index: 1; }
+#page-13 .info-post-it p{ width: 35%; font-size: 50px; font-weight: bolder; top: 30%; left: 28%; text-align: center; position: absolute; z-index: 1; }

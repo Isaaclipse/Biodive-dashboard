@@ -1,0 +1,21 @@
+body {
+	background-image: url("../images/background.png");
+	font-family: "Raleway";
+	line-height: normal;
+	color: #FFFFFF;
+	margin: 20px;
+}
+
+h1 { font-family: "Bevan"; }
+
+h2 { font-weight: 700; }
+
+a { color: #F38D00; }
+
+.figure-caption { color: #D0D0D0; }
+
+.citation {
+	margin-top: 2em;
+	font-size: 0.9em;
+	color: #D0D0D0;
+}

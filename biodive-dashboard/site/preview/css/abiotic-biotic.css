@@ -1,0 +1,98 @@
+img.comingSoon{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+
+.orange-text-box{position: absolute; width:40%; height: 15%; left: 30%; top: 38%; z-index: 300; background-color: #ea9a01;   border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E;}
+
+.orange-text-box p{position:absolute; width:100%; font-size: 20px; text-align: center;}
+
+
+.text-box {
+  position: absolute;
+  width: 5.5%;
+  height: 5%;
+  left: 36%;
+  top: 9%;
+  background-color: #00aca5;
+  border-radius: 10px;
+  box-shadow: 4px 3px 3px #3E3E3E;
+  transform: scale(3);
+}
+.text {
+  position: absolute;
+  width: 100%;
+  color: black;
+  font-size: 7.5px;
+  text-align: center;
+}
+.click-to-continue-button img {right: 15%; z-index: 301;}
+.abiotic {text-decoration: underline; font-weight: bold;}
+.biotic  {text-decoration: underline; font-weight: bold;}
+.sticker-salinity {
+  position: absolute;
+  left: 55%;
+  top: 17%;
+  width: 6%;
+  height: 14%;
+}
+.clownfish {
+  position: absolute;
+  left: 49%;
+  top: 5%;
+  width: 8%;
+}
+.bacteria {
+  position: absolute;
+  left: 32%;
+  width: 6%;
+  top: 36%;
+}
+.o2 {
+  position: absolute;
+  left: 39%;
+  top: 33%;
+  width: 6%;
+  height: 14%;
+}
+.seaturtle {
+  position: absolute;
+  left: 61%;
+  top: 20%;
+  width: 9%;
+}
+.clarity {
+  position: absolute;
+  left: 51%;
+  top: 33%;
+  width: 6%;
+  height: 14%;
+}
+.ph {
+  position: absolute;
+  left: 32%;
+  top: 21%;
+  width: 6%;
+  height: 14%;
+}
+.seaweed {
+  position: absolute;
+  left: 60%;
+  top: 4.5%;
+  width: 8%;
+}
+.temperature {
+  position: absolute;
+  left: 46%;
+  top: 19%;
+  width: 6%;
+  height: 14%;
+}
+.conus-geographus {
+  position: absolute;
+  left: 58%;
+  top: 32%;
+  width: 8%;
+}
+.abiotic-bucket {position: absolute; left: 30.2% ; top: 47%; width: 17% ; height: 35}
+.biotic-bucket {position: absolute; left: 48%; top: 47%; width:17%; height:30%;}
+.next-page {position: absolute; left: 40%; top: 20%; width:17%; height:34%; background-color: red}
+.next-page-box {position: absolute; background-color: orange; left: 35%; top: 36%; border-radius: 10px; width: 24%; height: 18%; box-shadow: 4px 3px 3px #3E3E3E; z-index: 1;}
+.next-page-box p{position: absolute; width: 100%; color: black; font-size: 3.4em; text-align: center;}

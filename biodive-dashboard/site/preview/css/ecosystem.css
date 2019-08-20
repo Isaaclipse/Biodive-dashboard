@@ -1,0 +1,406 @@
+img.comingSoon {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+/* ***************** */
+/* ARROW TO CONTINUE */
+/* ***************** */
+.opened-folder .next-button img {
+  z-index: 301;
+}
+
+.click-to-continue-button img {
+  z-index: 301;
+}
+
+/* ************************ */
+/* INFO POST IT AT THE LEFT */
+/* ************************ */
+.info-post-it{
+	width: 6%;
+	height: 11%;
+	top: 40%;
+	left: 45%;
+	border-radius: 8px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	background-color: #ed9805;
+	-webkit-transform: scale(3);
+	-ms-transform: scale(3);
+	transform: scale(3);
+	position: absolute;
+	z-index: 301;
+}
+
+.info-post-it p{
+  width: 90%;
+  top: 6%;
+  left: 8%;
+  font-size: 6px;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+/* ************************************************** */
+/* ANIMATION FOR THE MESSAGE THAT WILL BE AT THE LEFT */
+/* ************************************************** */
+.next-anim {
+  width: 6% !important;
+  height: 11% !important;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+  top: 12% !important;
+  left: 7% !important;
+  -webkit-transform: scale(3) rotate(-3deg);
+  -ms-transform: scale(3) rotate(-3deg);
+  transform: scale(3) rotate(-3deg);
+  z-index: 2 !important;
+}
+
+.next-anim p{
+  font-size: 6px;
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+}
+
+/* ************************** */
+/* BIG MARINE ECOSYSTEM IMAGE */
+/* ************************** */
+.ecosystem-image {
+  top: 7%;
+  left: 19%;
+  height: 78%;
+	-webkit-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	transform: rotate(1deg);
+  border: 7px solid white;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+/* **************** */
+/* QUESTIONSS PROMT */
+/* **************** */
+.question-prompt {
+  width: 51%;
+  top: 1%;
+  left: 20%;
+  background-color: #7eb601;
+  padding: 2%;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+}
+
+.question-prompt p {
+	font-size: 22px;
+  text-align: center;
+}
+
+.blue-question{
+	background-color: #009FBF;
+}
+
+/* ************** */
+/* CORRECT PROMPT */
+/* ************** */
+.correct-prompt {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.19);
+  position: absolute;
+}
+
+.correct-prompt p {
+  width: 50%;
+  left: 24%;
+  top: 34%;
+  padding: 3%;
+  font-size: 22px;
+  background-color: #7eb601;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+}
+
+.click-to-continue {
+  float: right;
+  margin-top: 0.2em;
+  padding: 8px;
+}
+
+/* *********** */
+/* HINT PROMPT */
+/* *********** */
+.hint-prompt {
+	width: 50%;
+	top: 40%;
+	left: 25%;
+	padding: 2%;
+  font-size: 22px;
+	text-align: center;
+	background-color: #EC5D39;
+	border-radius: 20px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 2;
+}
+
+
+/* ******************************* */
+/* ZONES AVAILABLE TO BE CLICKABLE */
+/* ******************************* */
+.sand-zone {
+	top: 71.2%;
+	left: 19.3%;
+	width: 116.9vh;
+	height: 105px;
+	-webkit-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+  clip-path: polygon(40% 0%, 100% 50%, 100% 100%, 8% 100%, 0% 100%, 0% 64%, 0% 55%);
+  -webkit-clip-path: polygon(40% 0%, 100% 50%, 100% 100%, 8% 100%, 0% 100%, 0% 64%, 0% 55%);
+	position: absolute;
+	z-index: 1;
+}
+
+.shark-zone {
+  width: 18%;
+  height: 18%;
+  top: 19%;
+  left: 20%;
+	-webkit-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.periwinkle-zone {
+  width: 3%;
+  height: 5%;
+  top: 74%;
+  left: 44%;
+  position: absolute;
+  z-index: 1;
+}
+
+.sun-zone {
+  width: 10%;
+  height: 10%;
+  top: 8%;
+  left: 76%;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.zooplankton-zone {
+  width: 8%;
+  height: 14%;
+  top: 28%;
+  left: 39%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.phytoplankton-zone {
+  width: 8%;
+  height: 14%;
+  top: 23%;
+  left: 59%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.bacteria\/decomposers-zone {
+  width: 8%;
+  height: 14%;
+  top: 44%;
+  left: 31%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.seaweed-zone {
+  width: 15%;
+  height: 24%;
+  top: 53%;
+  left: 19.5%;
+  -webkit-clip-path: polygon(0% 0%, 41% 0, 100% 66%, 21% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 41% 0, 100% 66%, 21% 100%, 0% 100%);
+  position: absolute;
+  z-index: 1;
+}
+
+.coral-zone {
+	width: 39%;
+	height: 50%;
+  top: 32%;
+  left: 43%;
+	-webkit-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+  clip-path: polygon(100% 70%, 100% 85%, 87% 100%, 68% 98%, 49% 87%, 17% 81%, 3% 80%, 0 64%, 61% 4%);
+  -webkit-clip-path: polygon(100% 70%, 100% 85%, 87% 100%, 68% 98%, 49% 87%, 17% 81%, 3% 80%, 0 64%, 61% 4%);
+	position: absolute;
+  z-index: 1;
+}
+
+.conus-geographus-zone {
+	width: 5%;
+  height: 8%;
+  top: 73%;
+  left: 59%;
+	position: absolute;
+  z-index: 1;
+}
+
+.conus-marmoreous-zone {
+	width: 5%;
+  height: 8%;
+  top: 72%;
+  left: 50.5%;
+	position: absolute;
+  z-index: 1;
+}
+
+.lobster-zone {
+  width: 13%;
+  height: 12%;
+  top: 70%;
+  left: 29%;
+  border-radius: 40px;
+  -webkit-transform: rotate(-21deg);
+  -ms-transform: rotate(-21deg);
+  transform: rotate(-21deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.sea-turtle-zone {
+  width: 11%;
+  height: 13%;
+  top: 34%;
+  left: 75%;
+  position: absolute;
+  z-index: 1;
+}
+
+.orange-croaker-zone {
+  width: 9%;
+  height: 9%;
+  top: 38%;
+  left: 53%;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.clownfish-zone {
+	width: 5%;
+  height: 6%;
+  top: 52%;
+  left: 75%;
+	position: absolute;
+  z-index: 1;
+}
+
+.dusky-frillgoby-zone {
+  width: 7%;
+  height: 5%;
+  top: 58%;
+  left: 39%;
+  border-radius: 20px;
+  -webkit-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.angelfish-zone {
+  width: 8%;
+  height: 8%;
+  top: 57%;
+  left: 24%;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* VR INSTRUCTIONS */
+.vr-instructions, .easter-egg-selections{
+	width: 91%;
+	left: -1%;
+	z-index: 2;
+}
+
+.vr-popup .para {
+	width: 57%;
+	font-size: 19px;
+	line-height: 1.68em;
+	margin-left: 13%;
+	padding-top: 10.5%;
+}
+
+.vr-popup .str {
+  font-weight: 800;
+  position: absolute;
+  top: 77%;
+}
+
+.vr-indicator{
+	top: -170px;
+  left: 650px;
+	position: relative;
+}
+
+.vr-indicator p {
+  width: 160px;
+  padding: 15px;
+  font-size: 1.1em;
+  left: -13%;
+  top: -85px;
+  position: relative;
+}
+
+.vr-indicator .vr-icon {
+  height: 180px;
+  right: 10%;
+  top: 25%;
+  position: relative;
+}
+
+/* VIDEO */
+ .video-background {
+    height: 100%;
+    z-index: 300;
+}
+
+#video-container {
+    left: 18%;
+}
+
+#video-player {
+  width: 800px;
+}

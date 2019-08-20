@@ -1,0 +1,27 @@
+.text-box {position: absolute; width: 17%; height: 16%; top: 5%; left: 15%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; background-color: #00aca5;}
+.text-box p {position: absolute; text-align: center; width: 100%; color: black; font-size: 1em;}
+.click-to-continue-button img {right: 5%; z-index: 301;}
+.next-anim {width: 35% !important; height: 22% !important; border-radius: 8px; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.75); box-shadow: 0 0 0px rgba(0, 0, 0, 0.75); -webkit-transition: 1.3s ease-out; -o-transition: 1.3s ease-out; transition: 1.3s ease-out; top: 6% !important; left: 13% !important; z-index: 0 !important;}
+.next-anim p{ font-size: 1.9em; -webkit-transition: 1.3s ease-out; -o-transition: 1.3s ease-out; transition: 1.3s ease-out;}
+.ph-meter { position: absolute; top: 39%; left: 32%; transform: rotate(-80deg);}
+.temperature-probe { position: absolute; left: 33%; top: 3%; transform: rotate(0deg);}
+.refractometer { position: absolute; top: 21%; left: 22%; }
+.oxygen-probe { position: absolute; top: 42%; left: 12%; transform: rotate(-100deg);}
+.turbidity-tube { position: absolute; top: 56%; left: 22%; transform: rotate(-70deg);}
+.question  { position: absolute; top: 2.8%; left: 48.2%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; width: 230px; height: 212px; font-size: 20px; background-color: #c6bc26;}
+.question2 { position: absolute; top: 2.8%; left: 70%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; width: 230px; height: 212px; font-size: 20px; background-color: #d76442;}
+.question3 { position: absolute; top: 35%; left: 48.2%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; width: 230px; height: 212px; font-size: 20px; background-color: #28b1da;}
+.question4 { position: absolute; top: 35%; left: 70%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; width: 230px; height: 212px; font-size: 20px; background-color: #db9500;}
+.question5 { position: absolute; top: 65%; left: 55%; border-radius: 10px; box-shadow: 4px 3px 3px #3E3E3E; width: 230px; height: 212px; font-size: 20px; background-color: #83b900;}
+p { position: absolute; left: 5px;}
+.next-page-box { position: absolute; background-color: orange; left: 35%; top: 36%; border-radius: 10px; width: 24%; height: 18%; box-shadow: 4px 3px 3px #3E3E3E; z-index: 1;}
+.next-page-box p{position: absolute; width: 100%; color: black; font-size: 3.4em; text-align: center;}
+img.comingSoon{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+
+
+
+
+
+
+
+

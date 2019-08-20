@@ -1,0 +1,264 @@
+img.comingSoon{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); }
+
+/* ***************** */
+/* ARROW TO CONTINUE */
+/* ***************** */
+.click-to-continue-button img{ z-index: 301; }
+.next-button img{ z-index: 4; }
+
+/* ************ */
+/* FOLDER LABEL */
+/* ************ */
+.opened-folder .folder-label {
+	right: 4.5%;
+	top: 18%;
+}
+
+/* ************************************* */
+/* MESSAGE AT THE LEFT ON THE ORANGE BOX */
+/* ************************************* */
+.left-text {
+  width: 11%;
+  height: 5%;
+  top: 40%;
+  left: 45%;
+  border-radius: 8px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  background-color: #ed9805;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  position: absolute;
+  z-index: 301;
+}
+
+.left-text p {
+  width: 90%;
+  top: 10%;
+  left: 5%;
+  font-size: 7px;
+	text-align: center;
+  position: relative;
+}
+
+/* ************************************************** */
+/* ANIMATION FOR THE MESSAGE THAT WILL BE AT THE LEFT */
+/* ************************************************** */
+.next-anim {
+	width: 11% !important;
+	height: 5% !important;
+	border-radius: 8px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	-webkit-transition: 1.3s ease-out;
+	-o-transition: 1.3s ease-out;
+	transition: 1.3s ease-out;
+	top: 9% !important;
+	left: 25% !important;
+	z-index: 0 !important;
+}
+
+.next-anim p{
+  font-size: 7px;
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+}
+
+/* ********************************* */
+/* BLUE BOX UNDER ORANGE IN THE LEFT */
+/* ********************************* */
+.instructions {
+	width: 33%;
+	height: 10%;
+	top: 21%;
+	left: 14%;
+	border-radius: 20px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	background-color: #00aca5;
+	position: absolute;
+}
+
+.instructions .message {
+  font-size: 20px;
+  width: 70%;
+  left: 14%;
+  top: 9%;
+  text-align: center;
+  position: absolute;
+}
+
+/* ************* */
+/* ANSWER PROMPT */
+/* ************* */
+.answer-prompt{
+	width: 33%;
+	height: 10%;
+	top: 33%;
+	left: 14%;
+	border-radius: 20px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	background-color: #ed9805;
+	position: absolute;
+}
+
+.answer-prompt .message{
+	width: 90%;
+	font-size: 17px;
+	font-weight: 600;
+	text-align: center;
+	top: 25%;
+	left: 5%;
+	position: absolute;
+}
+
+
+/* ***************** */
+/* BOTTOM RIGHT TEXT */
+/* ***************** */
+.right-text{
+	width: 37%;
+	height: 12%;
+	top: 80%;
+	left: 49%;
+	border-radius: 20px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+	background-color: #ed9805;
+	position: absolute;
+}
+
+.right-text .message {
+	font-size: 15px;
+	width: 90%;
+	left: 6%;
+	top: 9%;
+	text-align: center;
+	position: absolute;
+}
+
+/* ******** */
+/* STICKERS */
+/* ******** */
+.stickers {
+	width: 35%;
+	height: 34%;
+	left: 12%;
+	top: 44%;
+	position: absolute;
+}
+
+.sticker {
+	height: 30%;
+	z-index: 1;
+}
+
+.dragged-sticker {
+	display: none;
+	transform: rotate(5deg);
+	position: absolute;
+	pointer-events: none;
+}
+
+/* ************** */
+/* TROPHIC LEVELS */
+/* ************** */
+.trophic-levels {
+  width: 37%;
+  height: 75%;
+  top: 4%;
+  right: 14.5%;
+  background-image: url(../images/trophic-levels.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.trophic-level {
+  font-family: "Bevan";
+  position: absolute;
+  width: 95%;
+  height: 22%;
+  border-radius: 15px;
+}
+
+/* SIDE LABLES */
+.side-label {
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-weight: 600;
+}
+
+.autotrophs-label {
+	top: 87%;
+	left: -9%;
+}
+
+.heterotrophs-label {
+	top: 36%;
+	left: -11%;
+}
+
+/* LABELS FOR EACH BOX */
+.tropic-level-title {
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.level-stickers {
+  margin-top: 2% !important;
+}
+
+/* TERTIARY CONSUMER */
+#tertiary-consumer {
+  top: 0.7%;
+  left: 4.5%;
+  background-color: #ed5d38;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* SECONDARY CONSUMER */
+#secondary-consumer {
+	top: 25.8%;
+	left: 4.5%;
+	background-color: #e0d11f;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* PRIMARY CONSUMER */
+#primary-consumer {
+	top: 51%;
+	left: 4.8%;
+	background-color: #9b36f3;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* PRIMARY PRODUCER */
+#primary-producer {
+	top: 77%;
+	left: 6%;
+	background-color: #6cbf00;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ***** */
+/* VIDEO */
+/* ***** */
+#video-player {
+	width: 72%;
+	top: -12%;
+	left: 15%;
+	position: relative;
+}
+
+.video-background{
+	z-index: 3;
+}

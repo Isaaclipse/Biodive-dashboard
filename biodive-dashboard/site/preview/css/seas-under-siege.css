@@ -1,0 +1,174 @@
+img.comingSoon {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+.click-to-continue-button img{ z-index: 301; }
+
+/* ************ */
+/* FOLDER LABEL */
+/* ************ */
+.opened-folder .folder-label {
+  width: 270px;
+  font-size: 15px;
+  right: 2%;
+  top: 8.4em;
+}
+
+/* ************ */
+/* ORANGE POPUP */
+/* ************ */
+.information {
+  width: 14%;
+  height: 3%;
+  top: 42%;
+  left: 45%;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  background-color: #ed9805;
+  -webkit-transform: scale(4);
+  -ms-transform: scale(4);
+  transform: scale(4);
+  position: absolute;
+  z-index: 301;
+}
+
+.information-text {
+  top: 10%;
+  position: absolute;
+}
+
+.information-text p {
+  width: 89%;
+  left: 5%;
+  top: 2px;
+  font-size: 6px;
+  text-align: center;
+  position: relative;
+}
+
+/* ************************************************** */
+/* ANIMATION FOR THE MESSAGE THAT WILL BE AT THE LEFT */
+/* ************************************************** */
+.next-anim {
+  width: 14% !important;
+  height: 3% !important;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+  top: 6% !important;
+  left: 45% !important;
+  z-index: 1 !important;
+}
+
+.next-anim p {
+  font-size: 6px;
+  -webkit-transition: 1.3s ease-out;
+  -o-transition: 1.3s ease-out;
+  transition: 1.3s ease-out;
+}
+
+/* ****************** */
+/* ORIGINAL ECOSYSTEM */
+/* ****************** */
+.original-ecosystem {
+  width: 30%;
+  left: 19%;
+  top: 18%;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  position: absolute;
+}
+
+.original-ecosystem p {
+  font-weight: 800;
+  position: absolute;
+  left: 55%;
+  top: 4%;
+  margin-top: 2%;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+/* ***************** */
+/* CURRENT ECOSYSTEM */
+/* ***************** */
+.current-ecosystem {
+  width: 30%;
+  left: 50%;
+  top: 18%;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  position: absolute;
+}
+
+.current-ecosystem p {
+  font-weight: 800;
+  position: relative;
+  left: 5%;
+  margin-top: 2%;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+/* ******************** */
+/* BOTH  ECOSYSTEM IMGS */
+/* ******************** */
+.original-ecosystem img, .current-ecosystem img {
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ********* */
+/* QUESTIONS */
+/* ********* */
+.questions {
+  width: 50%;
+  height: 26%;
+  left: 26%;
+  top: 57%;
+  background-image: url("../images/note-paper/green.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.main-question {
+  left: 5%;
+  top: 4%;
+  line-height: 1.5em;
+  position: absolute;
+}
+
+.quest{
+  width: 90%;
+  top: 30%;
+  left: 5%;
+  position: absolute;
+}
+
+.question {
+  line-height: 1.4em;
+  left: 0%;
+  top: 42%;
+  position: relative;
+}
+
+input {
+  width: 50%;
+  font-size: 16px;
+  font-family: "Raleway";
+  outline: none;
+  background: transparent;
+  border: none;
+  color: #000;
+}
